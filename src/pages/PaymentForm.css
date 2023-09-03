@@ -1,0 +1,83 @@
+/* PaymentForm.css */
+
+.payment-container {
+    width: 360px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .payment-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-element {
+    margin-bottom: 20px;
+  }
+  
+  .card-row {
+    
+    justify-content: space-between;
+  }
+  
+  .card-label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    color: #333;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .card-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  .card-button {
+    background-color: #007bff;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .payment-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
